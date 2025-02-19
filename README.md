@@ -31,7 +31,7 @@ WHERE login_time > '18:00' AND success = FALSE;
 **Ref 2: Querying login attempts from May 8-9, 2022.**
 ```sql
 SELECT * FROM log_in_attempts
-WHERE login_date = '2022-05-08' OR Login_date = '2022-05-09';
+WHERE login_date = '2022-05-08' OR login_date = '2022-05-09';
 ```
 
 ![image](https://github.com/user-attachments/assets/f0ae8d7d-9675-4763-a040-b87c144ebdda)
