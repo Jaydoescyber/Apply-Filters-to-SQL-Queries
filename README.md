@@ -61,7 +61,7 @@ WHERE department = 'Marketing' AND office LIKE 'East%';
 **Ref 5: Filtering employees in Finance or Sales departments.**
 ```sql
 SELECT * FROM employees
-WHERE department IN ('Finance', 'Sales');
+WHERE department = 'Finance' or department = 'Sales';
 ```
 
 ![image](https://github.com/user-attachments/assets/457c0659-a3fd-4e81-b3c9-b8e4c535be5e)
